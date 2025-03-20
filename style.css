@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Peppa Pig;
+    src: url(Peppa\ Pig.ttf);
+}
+body {
+    background-image: url('BPP.png');
+  }
+
+  header{
+font-size: 100px;
+font-family: Peppa Pig;
+color:#65c8f7;
+  }
+
+p {
+right: 40px;
+
+  }
