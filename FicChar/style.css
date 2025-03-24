@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Peppa Pig;
+  src: url(Peppa\ Pig.ttf);
+}
+
+body {
+  background-image: url('BPP.png');
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+header {
+  font-size: 100px;
+  font-family: Peppa Pig;
+  color: #65c8f7;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.bio {
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+img {
+  display: inline-block;
+  margin: 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  border: 3px solid pink;
+}
